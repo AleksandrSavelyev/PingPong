@@ -13,7 +13,7 @@ namespace PingPong
             pong.Hit += Inf;
             ping.Heat();
             pong.Heat();
-            
+            Console.ReadKey();
         }
         public static void Inf(string mes)
         {
